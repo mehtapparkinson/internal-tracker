@@ -1,6 +1,6 @@
 .Punch {
     text-align: center;
-    background: linear-gradient(45deg, #ffff4d, rgb(255, 85, 0));
+    background: linear-gradient(90deg, #ffff4d, rgb(255, 142, 85));
     color: rgb(0, 0, 117);
     height: 100vh;
     display: flex;
@@ -12,6 +12,7 @@
   h1{
     font-size: 3em;
     margin: 20px;
+    text-shadow: 3px 3px 3px #ffffffa3;
   }
   
   .Punch-inputs {
