@@ -4,9 +4,9 @@ import sound from '../alarm.mp3';
 
 function Punch() {
 
-  const [punchInTime, setPunchInTime] = useState('');
-  const [lunchStartTime, setLunchStartTime] = useState('');
-  const [lunchEndTime, setLunchEndTime] = useState('');
+    const [punchInTime, setPunchInTime] = useState('');
+    const [lunchStartTime, setLunchStartTime] = useState('');
+    const [lunchEndTime, setLunchEndTime] = useState('');
   const [punchOutTime, setPunchOutTime] = useState('');
   const [timeLeft, setTimeLeft] = useState('');
 
@@ -25,7 +25,16 @@ function Punch() {
     setLunchEndTime(event.target.value);
   }
 
+  
+
+
+
   function handleCalculate() {
+    if (!punchInTime || !lunchStartTime || !lunchEndTime) {
+      alert('Please enter all times');
+        return;
+    } 
+
     const workHoursPerDay = 8;
 
     // Parse the input times as Date objects
