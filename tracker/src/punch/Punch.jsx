@@ -67,6 +67,14 @@ function Punch() {
         clearInterval(interval);
         // Play the alarm sound
         alarm.play();
+        // Set the time left to 0
+        setTimeLeft("00:00:00");
+       
+        
+
+        return;
+
+
       }
 
       // Format the time left as a string and set it in the state
