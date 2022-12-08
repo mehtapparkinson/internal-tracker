@@ -1,0 +1,48 @@
+.Punch {
+    text-align: center;
+    background: linear-gradient(45deg, #ffff4d, rgb(255, 85, 0));
+    color: rgb(0, 0, 117);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  h1{
+    font-size: 3em;
+    margin: 20px;
+  }
+  
+  .Punch-inputs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;   
+    align-items: center;
+  }
+
+  .Punch-inputs p {
+    margin-right: 30px;
+    font-weight: bold;
+  }
+  
+  .Punch-inputs > * {
+    margin: 10px 0;
+  }
+
+  .calculate-btn {
+    margin: 40px;
+    background: rgb(0, 0, 117);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1.1em;
+    cursor: pointer;
+
+  }
+  
+  .Punch-results {
+    margin-top: 20px;
+  }
+  
